@@ -81,7 +81,7 @@ shuffle doors = do
   return (door : rest)
            
 
--- | Run 3000 experiments with switch as indicated
+-- | Run a bunch of experiments with stay or switch as indicated
 -- on the command line.
 main :: IO ()
 main = do
